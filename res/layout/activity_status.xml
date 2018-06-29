@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.haako.policymaker.Status">
+
+    <ProgressBar
+        android:id="@+id/popularityBar"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/circular_progress_bar"
+        android:background="@drawable/circle_shape"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="90"
+        android:layout_below="@+id/status_popularity"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="-5dp" />
+
+    <ProgressBar
+        android:id="@+id/innovationBar"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/circular_progress_bar"
+        android:background="@drawable/circle_shape"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="90"
+        android:layout_below="@+id/status_innovation"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="-5dp" />
+
+    <ProgressBar
+        android:id="@+id/feasibilityBar"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/circular_progress_bar"
+        android:background="@drawable/circle_shape"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="90"
+        android:layout_below="@+id/status_feasibility"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Popularitet"
+        android:id="@+id/status_popularity"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/popularityBar"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/gunmetal"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Gjennomførbarhet"
+        android:id="@+id/status_feasibility"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/gunmetal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Innovasjon"
+        android:id="@+id/status_innovation"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/legworkBtn"
+        android:layout_alignStart="@+id/innovationBar"
+        android:textColor="@color/gunmetal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tilgjengelig politisk kapital:"
+        android:id="@+id/status_politicalCapital"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignEnd="@+id/status_feasibility" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tilgjengelig nettverk:"
+        android:id="@+id/status_network"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/status_legwork"
+        android:layout_alignStart="@+id/status_legwork" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tilgjengelig kunnskap:"
+        android:id="@+id/status_knowledge"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/status_network"
+        android:layout_alignStart="@+id/status_network" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tilgjengelig benarbeid:"
+        android:id="@+id/status_legwork"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/status_politicalCapital"
+        android:layout_alignStart="@+id/status_politicalCapital" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/legworkBtn"
+        android:src="@drawable/add_resource"
+        android:background="#00ffffff"
+        android:onClick="legworkBtn_click"
+        android:layout_alignBottom="@+id/status_legwork"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tilgjengelig innflytelse:"
+        android:id="@+id/status_influence"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/status_knowledge"
+        android:layout_alignStart="@+id/status_knowledge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tilgjengelig engasjement:"
+        android:id="@+id/status_passion"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/status_influence"
+        android:layout_alignStart="@+id/status_influence" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tilbake til spillet"
+        android:id="@+id/returnBtn"
+        android:layout_below="@+id/status_passion"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:onClick="returnBtn_click" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/popularityLabel"
+        android:textAlignment="center"
+        android:text="0/0"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/feasibilityBar"
+        android:layout_alignEnd="@+id/popularityBar"
+        android:layout_alignStart="@+id/popularityBar"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/feasibilityLabel"
+        android:textAlignment="center"
+        android:text="0/0"
+        android:textColor="#00ff00"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/popularityLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/innovationLabel"
+        android:text="0/0"
+        android:textAlignment="center"
+        android:textColor="#0000ff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/popularityLabel"
+        android:layout_alignStart="@+id/innovationBar"
+        android:layout_alignEnd="@+id/innovationBar" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/networkBtn"
+        android:src="@drawable/add_resource"
+        android:background="#00ffffff"
+        android:onClick="networkBtn_click"
+        android:layout_alignBottom="@+id/status_network"
+        android:layout_alignStart="@+id/knowledgeBtn" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/knowledgeBtn"
+        android:src="@drawable/add_resource"
+        android:background="#00ffffff"
+        android:onClick="knowledgeBtn_click"
+        android:layout_alignBottom="@+id/status_knowledge"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/influenceBtn"
+        android:src="@drawable/add_resource"
+        android:background="#00ffffff"
+        android:onClick="influenceBtn_click"
+        android:layout_above="@+id/status_passion"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passionBtn"
+        android:src="@drawable/add_resource"
+        android:background="#00ffffff"
+        android:onClick="passionBtn_click"
+        android:layout_alignBottom="@+id/status_passion"
+        android:layout_alignStart="@+id/influenceBtn" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageView3"
+        android:layout_alignStart="@+id/popularityBar"
+        android:layout_alignEnd="@+id/innovationBar" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/status_politicalCapital"
+        app:srcCompat="@drawable/politicalcb"
+        android:layout_alignBottom="@+id/status_politicalCapital"
+        android:layout_toStartOf="@+id/status_politicalCapital" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/status_legwork"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/status_legwork"
+        android:adjustViewBounds="false"
+        app:srcCompat="@drawable/legworkb"
+        android:layout_toStartOf="@+id/status_legwork" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/networkb"
+        android:layout_alignTop="@+id/status_network"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/status_network"
+        android:layout_toStartOf="@+id/status_network" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/status_knowledge"
+        app:srcCompat="@drawable/knowledgeb"
+        android:layout_alignBottom="@+id/status_knowledge"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/status_knowledge" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/status_passion"
+        app:srcCompat="@drawable/passionb"
+        android:layout_alignBottom="@+id/status_passion"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/status_passion" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/status_influence"
+        app:srcCompat="@drawable/influenceb"
+        android:layout_above="@+id/status_passion"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/status_influence" /><![CDATA[
+
+    ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/separator"
+        android:layout_below="@+id/popularityBar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:progress="100" />
+
+
+]]>
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selectorScroll">
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/oppstart"
+        android:layout_width="match_parent"
+        android:layout_height="525dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/waitingroom_green" />
+
+    <TextView
+        android:id="@+id/planlegging"
+        android:layout_width="match_parent"
+        android:layout_height="1192dp"
+        android:background="@color/waitingroom_green"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/cardSelect4"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/gjennomforing"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cardSelect12"
+        android:layout_marginTop="34dp"
+        android:background="@color/waitingroom_green" />
+
+    <TextView
+        android:id="@+id/planlegging_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/oppstart_txt"
+        android:layout_alignTop="@+id/cardSelect5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/waitingroom_green"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:text="P\nL\nA\nN\nL\nE\nG\nG\nI\nN\nG"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/oppstart_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="32dp"
+        android:background="@color/waitingroom_green"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:text="O\nP\nP\nS\nT\nA\nR\nT"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/cardSelect1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/gjennomforing_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/waitingroom_green"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:text="G\nJ\nE\nN\nN\nO\nM\nF\nØ\nR\nI\nN\nG"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/cardSelect13"
+        android:layout_alignStart="@+id/planlegging_txt" />
+
+    <ProgressBar
+        android:id="@+id/levelProgress"
+        android:layout_width="20dp"
+        android:layout_height="2130dp"
+        style="@style/Widget.ProgressBar.Vertical"
+        android:layout_centerHorizontal="true"
+        android:max="1300"
+        android:layout_below="@+id/cardSelect1"
+        android:layout_marginTop="-10dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="1"
+        android:id="@+id/cardSelect1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#00ff00"
+        android:onClick="enterLevelBtn_click" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="2"
+        android:id="@+id/cardSelect2"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:layout_below="@+id/cardSelect1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textColor="#ff0000"
+        android:onClick="enterLevelBtn_click" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="3"
+        android:id="@+id/cardSelect3"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:layout_below="@+id/cardSelect2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textColor="#ff0000"
+        android:onClick="enterLevelBtn_click" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="4"
+        android:id="@+id/cardSelect4"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/cardSelect3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:onClick="enterLevelBtn_click" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="5"
+        android:id="@+id/cardSelect5"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/cardSelect4"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="70dp"
+        android:onClick="enterLevelBtn_click" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="6"
+        android:id="@+id/cardSelect6"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/cardSelect5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:onClick="enterLevelBtn_click" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="7"
+        android:id="@+id/cardSelect7"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/cardSelect6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:onClick="enterLevelBtn_click" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="8"
+        android:id="@+id/cardSelect8"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/cardSelect7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:onClick="enterLevelBtn_click" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="9"
+        android:id="@+id/cardSelect9"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/cardSelect8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:onClick="enterLevelBtn_click" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="10"
+        android:id="@+id/cardSelect10"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/cardSelect9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:onClick="enterLevelBtn_click" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="11"
+        android:id="@+id/cardSelect11"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/cardSelect10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:onClick="enterLevelBtn_click" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="12"
+        android:id="@+id/cardSelect12"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/cardSelect11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:onClick="enterLevelBtn_click" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="13"
+        android:id="@+id/cardSelect13"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/cardSelect12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:onClick="enterLevelBtn_click" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="14"
+        android:id="@+id/cardSelect14"
+        android:background="@drawable/round_button"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/cardSelect13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="enterLevelBtn_click" />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gunmetal">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/actor5"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mor til tre barn i offentlig skole. Har skrevet flere mailer til barne- og ungdomsutvalget og initiativgruppen med ideer og forslag til hva den noe skolepolitikken skal inneholde. FORKLAR SITUASJONEN HER"
+        android:id="@+id/textView3"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gå til avgjørelse"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

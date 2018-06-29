@@ -1,0 +1,311 @@
+<resources>
+    Generelt for mesteparten av applikasjonen:
+    <string name="app_name">Policy Maker</string>
+    <string name="welcomeText">Trykk for å starte..</string>
+    <string name="voteBtn_text">Stem</string>
+    <string name="answerBtn_text">Svar</string>
+    <string name="nextBtn_text">Gå Videre</string>
+    <string name="exitGameBtn_text">Avslutt Spill</string>
+    <string name="logBtn_text">Se Logg</string>
+    <string name="levelSelect_name">Nivåvelger</string>
+    <string name="actorhead">Valgte aktører</string>
+
+    Elementer på statusskjermen:
+    <string name="statushead">Spillstatus</string>
+    <string name="politicalcapital">Tilgjengelig politisk kapital: </string>
+    <string name="passion">Tilgjengelig engasjement: </string>
+    <string name="knowledge">Tilgjengelig kunnskap: </string>
+    <string name="influence">Tilgjengelig innflytelse: </string>
+    <string name="network">Tilgjengelig nettverk: </string>
+    <string name="legwork">Tilgjengelig benarbeid: </string>
+
+    Elementer på instillinger:
+    <string name="prefhead">INSTILLINGER</string>
+
+    Elementer på loginskjermen:
+    <string name="login_username_hint">Brukernavn</string>
+    <string name="login_password_hint">Passord</string>
+    <string name="login_test_checkbox">Testbruker (NB: Lagrer ikke data)</string>
+    <string name="loginBtn_text">Logg inn</string>
+
+    <string name="introtext1">Fjordby er en typisk Norsk kommune. Borgermesteren har sittet i ti år og har et stort flertall av kommunestyret i ryggen. Det politiske klimaet er preget av konstruktivt samarbeid, men det er mange av kommunepolitikerne som synes at den administrative styringen av forvaltningen tar for mye plass. Noe som igjen gjør at det blir for lite plass til politisk ledelse og utvikling av politikk. \n\nRegjeringens skolereform har satt skolepolitikken øverst på dagsordenen i Fjordby kommune. I kommunestyret er det en stor enighet om at man må tenke i helt nye baner hvis Fjordby skal realisere reformens intensjoner og potensialer, samt få den til å henge sammen med lokalpolitikkens utfordringer og visjoner. \n\nFor å få fart i skolepolitikken, besluttet en liten gruppe politikere seg for å sette seg i spissen av en politisk ledet utviklingsprosess. Gruppen kaller seg selv “Initiativgruppen” og består av politikere på tvers av partiene</string>
+    <string name="introtext2">I spillet utgjør dere Initiativgruppen. Dere skal spille dere selv i en fiktiv situasjon og handle som dere selv ville gjort i reell situasjon. Dere spiller sammen mot spillet og må samarbeide for å overkomme de utfordringene dere måtte støte på underveis. Spillets mål er å skape en best mulig prosess for utviklingen av en ny skolepolitikk i Fjordby kommune.</string>
+    <string name="intro_checkbox">Reglene er forstått</string>
+    <string name="startGameBtn_text">Start spillet</string>
+
+    Elementer på oppsummering:
+    <string name="summaryhead">OPPSUMMERING</string>
+    <string name="score1">Deres nye skolepolitikk er en åpenlys fiasko og blir hurtig skrinlagt. Kommunestyret går i tenkeboksen angående hvordan vi i steden skal utvikle skolepolitikken, og en ting er sikkert, dere er ikke invitert!</string>
+    <string name="score2">Prosjektet er langt fra en suksess, og det blir aldri implementert i sin helhet. Barne- og Ungdomsutvalget gjennomfører noen av deres beste ideer og overlater det til forvantningen å fylle ut det som mangler</string>
+    <string name="score3">Resultatet ble nogenlunde tilfredstillende og skaper en del nytenking på skoleområdet. ikke alt lever opp til forventningene men det er flere lyspunkter man kan peke på</string>
+    <string name="score4">Prosjektet er en suksess og dere mottar stor ros for det dere har bidratt med til utviklingen på skoleområdet i Fjordby kommune. Dere konsoliderer posisjonen deres som dyktige politikere og kompetente samarbeidspartnere</string>
+    <string name="score5">Prosjektet blir utpekt som et eksempel for suksessfull skolepolitikk og dere får det travelt med besøk fra hele landet som vil lære av dere. Det er ingen tvil om at den neste borgermesteren vil komme fra deres initiativgruppe</string>
+
+    Informasjon som kreves i spillkort:
+    <string name="head1">1: UTFORDRING | MANDATET</string>
+    <string name="card1">Deres første utfordring er å formulere et mandat for Temautvalget. Mandatet fastlegger mål og retning for utvalgets arbeid. Dere er klar over at mandatet blir avgjørende for hvilke forventninger som skapes til det endelige produktet. Hva velger dere å fokusere på?</string>
+    <string name="card1a">Vekt på problemdefinisjon; Mandatet legger vekt på at arbeidet med å utvikle en ny skolepolitikk tar utgangsppunkt i en bred og grundig avdekning av de problemer og utfordringer som mandatet skal løse \nPris: 1 Nettverk, 1 Kunnskap</string>
+    <string name="card1b">Vekt på implementering; Mandatet fokuserer på at utvalgets forslag skal være gjennomførbare. Det skal tas utgangspunkt i de eksisterende ressurserene på området og hvordan man med utgangspunkt i disse kan gjøre den nye skolepolitikken til virkelighet \nPris: 1 Kunnskap, 1 Benarbeid</string>
+    <string name="card1c">Vekt på politiske visjoner;  Mandatet pålegger Temautvalget at de skal utvikle en politisk visjon for hvordan skolen ser ut om 10 år, deretter skal utvalget skissere en plan for hvordan visjonene blir infridd \nPris: 1 Innflytelse, 1 Engasjement</string>
+
+    <string name="head2">2: UTFORDRING - TEMAUTVALGET</string>
+    <string name="card2">Kommunestyret har nå vedtatt mandatet og ber dere om å komme med et forslag på hvem som skal sitte i Temautvalget utover initiativgruppen. Hvordan vil dere anbefale at kommunestyret setter sammen utvalget? </string>
+    <string name="card2a">Det politiske administrative team; Utvalget sammensettes primært av de mest erfarne skolepolitikere og embetsmenn samt ledere fra utvalgte utdanningsinstitusjoner i kommunen. Formålet er å etablere en beslutningskraftig, dedikert og målrettet gruppe. \nPris: 1 Innflytelse</string>
+    <string name="card2b">Den representative forsamlingen; Utvalget skal hovedsakelig bestå av representanter for de politiske og administrative beslutningstakerne, samt de berørte partene i form av borgere, brukere, interesseorganisasjoner og foreninger. Formålet er å få input fra alle interessenter og samtidig forplikte de til å gjennomføre. \nPris:  1 Nettverk, 1 Engagsjement</string>
+    <string name="card2c">Den håndplukkede gruppen; Dere velger å tenke helt ut av de tradisjonelle rammene og sammensetter en håndpukket gruppe hvor dere går etter personer som har noe spesielt å komme med. Det kan være både faglig dyktige embetsmenn, visjonære ledere, eksperter og iderike lokale ildsjeler. \nPris: 2 Nettverk, 1 Kunnskap</string>
+
+    <string name="head3">3: AKTØRER | TEMAUTVALGET"</string>
+
+    <string name="head4">4: REFLEKSJONSØVELSE | STARTEN AV POLITISK UTVIKLING</string>
+    <string name="card4a">Dere er nå klare til å starte med selve utviklingen av den nye skolepolitikken. Innen dere fortsetter med spillet er det derimot tid for en refleksjonsøvelse, dere skal nå tre ut av spillets fiksjon og tilbake til virkeligheten.</string>
+    <string name="card4b">Diskuter følgende spørsmål: \n \nHvordan blir politikk utviklet hos dere? \n\nHvor kommer initiativet til politisk innovasjon fra, og hvem involveres i utklingen? \n\nHvilken rolle bør politikere ha i utviklingsarbeidet?</string>
+
+    <string name="head5">5: UTFORDRING | MØTESTED</string>
+    <string name="card5">Da dere skal til å innkalle til det første møtet i Temautvalget melder spørsmålet seg.. Hvor skal møtene foregå? Skal dere prioritere effektivitet eller inspirasjon utenfra?</string>
+    <string name="card5a">Dere møtes på Rådhuset i Fjordby som ligger sentralt og har de korrekte fasilitetene for politisk arbeid. Her har dere god tilgang til sekretariatet og kantina og det setter en tydelig politisk ramme for arbeidet med en ny skolepolitikk. \nPris: 1 Innflytelse</string>
+    <string name="card5c">Dere bestemmer dere for å holde møtene på Nordregårdskolen, som er der politikken skal virkeliggjøres. Dette er den nyeste skolen i Fjordby med de fineste lokalene og de nyeste IT-fasilitetene og dere må innrette dere etter de andre brukerne av lokalene. \nPris: 2 Nettverk, 1 Benarbeid</string>
+    <string name="card5b">Dere velger bestemt å ikke ha noe fast møtested, dette åpner for at deltagerne i Temautvalget selv holder møtene og blir dermed også involvert i planleggingen av møtet. \nPris: 2 Benarbeid, 1 Engasjement, 1 Kunnskap</string>
+
+    <string name="head6">6: UTFORDRING | POLITIKERNES ROLLE</string>
+    <string name="card6">Da dere sitter å planlegger det første møtet i Temautvalget er det tydelig at dere er usikre på deres rolle som politikere i denne typen utvalg. På den ene siden vil dere gjerne ha de eksterne deltagerne på banen, men på den andre siden er det dere som til slutt står ansvarlig for politikken ovenfor kommunestyret og deres velgere. Hvordan vil dere definere deres rolle som politikere i utvalgsarbeidet?</string>
+    <string name="card6a">Dere plasserer dere på bordenden og tar den politiske ledelsen, det betyr at dere setter dagsordenen og angir retningen for arbeidet, men dere gir selvfølgelig rom for at alle kan bidra med synspunkter og ideer så lenge de er innenfor den overordnede rammen. \nPris: 1 Kunnskap, 1 Engasjement</string>
+    <string name="card6b">Dere ønsker å inngå en likeverdig og fordomsfri dialog i Temautvalget, men forutser at ikke nødvendigvis skaper løsninger, derfor beslutter dere at dere vil ta forbehold for konkrete ideer uten at dette blokkerer for prossessen. \nPris: 1 Engasjement, 1 Innflytelse</string>
+    <string name="card6c">Dere inntar en lytteposisjon der dere gir plass til medlemmene i Temautvalget, på denne måten unngår dere å gi løfter til de eksterne medlemmene, mens dere samtidig står fritt når den nye skolepolitikken skal vedtas i kommunestyret. \nPris: 1 Nettverk</string>
+
+    <string name="head7">7: UTFORDRING | KOMPETANSEKONFLIKT</string>
+    <string name="card7">Dere er kommet godt i gang med arbeidet i Temautvalget, og har fått et lite overblikk over både kravene til skolereformen og de lokale utfordringene. Dere mottar nå et brev fra Barne- og Ungdomsutvalget, som vanligvis er de som står ansvarlige for skolepolitikken, der de foreslår at Temautvalget konsentrerer seg på å generere gode ideer til nytenking og overlater det til BU-utvalget å samle ideene til en ny skolepolitisk strategi, hva anbefaler dere at Temautvalget svarer?</string>
+    <string name="card7a">Dere anbefaler at formannen for BU-utvalget blir inkludert i Temautvalget, målet er å stoppe en potensiell konflikt uten at Temautvalget mister kompetanse. \nPris: 1 Nettverk, 1 Engasjement</string>
+    <string name="card7b">Dere inviterer avsenderen av brevet til et kaffemøte med initiativgruppen, her lytter dere til deres tanker men henviser til mandatet som klart fastslår at det er dere, ikke BU-utvalget, som har som jobb å utforme den nye skolepolitikken. \nPris: 1 Kunnskap, 1 Benarbeid</string>
+    <string name="card7c">Dere inviterer hele BU-utvalget med til to av Temautvalgets møter så de kan få et innblikk i deres arbeid og by på deres ideer, og dere kan nyte godt av deres viten og erfaring. \nPris: 1 Kunnskap, 1 Engasjement</string>
+
+
+    <string name="head8">8: UTFORDRING | KAMP OM PROBLEMFORSTÅELSEN</string>
+    <string name="card8">Lokalavdeling av Norges Lærerforbund har levert et 5-siders debattopplegg til Temautvalget, der de argumenterer for at grunnskolens største problem er de nedskjæringene som har funnet sted de siste ti årene og at det stilles for strenge krav til lærerens arbeid. De foreslår at Temautvalget konsentrerer seg om å skaffe flere ressurser til grunnskolen og gi lærerne større beslutningsmulighet. Hva gjør dere?</string>
+    <string name="card8a">Dere oppfatter det som ensidig fra lærernes side og sender derfor et pent svar der dere argumenterer for at utviklingen i grunnskolen krever samarbeid fra mange flere aktører og at det neppe blir flere tilgjengelige ressurser. \nPris: 1 Benarbeid</string>
+    <string name="card8b">Dere inviterer Lærerforeningen på befaring sammen en en person fra Foreldreforeningen, en utviklingskonsulent og en fra initiativgruppen. Befaringen skal besøke fire lokale utdanningsinstitusjoner og utforme en katalog over de utfordringene de støter på. \nPris: 1 Engasjement, 1 Benarbeid, 1 Innflytelse</string>
+    <string name="card8c">Dere takker Lærerforeningen for deres innspill og oppfordrer samtidig andre interesseorganisasjoner til å bidra til diskusjonen. På denne måten sikrer dere at det kommer flere forskjellige synspunkter på banen og at alle føler seg hørt. \nPris: 2 Nettverk</string>
+
+    <string name="head9">9: AKTØRER | NYE KREFTER</string>
+
+    <string name="head10">10: UTFORDRING | NY INSPIRASJON</string>
+    <string name="card10">Dere har fått nye krefter i Temautvalget og de nye medlemmene påpeker at utvalget har bruk for ny inspirasjon. Hvor skal inspirasjonen komme fra?</string>
+    <string name="card10a">Dere søker penger fra kommunestyret så dere kan ta Temautvalget på en ekskursjon til deres finske vennskapsby Yrkokollan. Dessverre er det kun halvparten at utvalget som har tid med så kort varsel, men dette bidrar til å holde kostnaden nede. \nPris: 2 Engasjement, 1 Nettverk</string>
+    <string name="card10b">Dere hyrer en prosesskonsulent til å lage et fremtidsverksted for utvalget, dette skal vise hvordan den perfekte skolen skal se ut og velger på bakgrunn av det en rekke visjonære og realistiske ideer som dere vil arbeide videre med. \nPris: 2 Kunnskap</string>
+    <string name="card10c">Dere lager en offentlig konkurranse der dere gir premier til de beste skolepolitiske ideene. Ved å \'spørre publikum\' på denne måten håper dere få å uortodokse ideer og skape offentlig oppmerksomhet rundt prosjektet. \nPris: 1 Nettverk, 1 Benarbeid</string>
+
+    <string name="head11">11: UTFORDRING | RAPPORTEN</string>
+    <string name="card11">Takket være deres iherdige innsats har utviklingsarbeidet gått relativt knirkefritt, men nå som arbeidet skal konkretiserers oppstår det uenighet om både form og innhold i den endelige utvalgsrapporten, hva gjør dere?</string>
+    <string name="card11a">Dere sørger for å unngå konflikter ved å kun ta med de forslagene som alle er enige om. På denne måten sikrer dere at alle støtter opp om rapporten og arbeidet med å lage et endelig forslag gis til kommunestyret. \nPris: 1 Benarbeid, 1 Kunnskap</string>
+    <string name="card11b">Dere angir en skrivegruppe bestående av en fra initiativgruppen og to medlemmer fra Temautvalget. De får til oppgave å formulere en sammenhengende skolepolitikk på bakgrunn av utvalgets mange ideer. Temautvalget får mulighet til å diskutere å stemme om de forskjellige elementene før opplegget sendes til kommunestyret. \nPris: 1 Kunnskap, 1  Engasjement, 1 Innflytelse</string>
+    <string name="card11c">Dere samler alle ideene som har blitt arbeidet med underveis i en idekatalog som dere gir til kommunestyret for videre arbeid. \nPris: 1 Benarbeid, 1 Engasjement</string>
+
+    <string name="head12">12: REFLEKSJONSØVELSE | UT AV RÅDHUSET</string>
+    <string name="card12a">Dere er nå klare til å starte med selve utviklingen av den nye skolepolitikken. Innen dere fortsetter med spillet er det derimot tid for en refleksjonsøvelse, dere skal nå tre ut av spillets fiksjon og tilbake til virkeligheten.</string>
+    <string name="card12b">Diskuter følgende spørsmål: \n \nHvordan blir politikk utviklet hos dere? \n\nHvor kommer initiativet til politisk innovasjon fra, og hvem involveres i utklingen? \n\nHvilken rolle bør politikere ha i utviklingsarbeidet?</string>
+
+    <string name="head13">13: UTFORDRING | TILBAKE TIL KOMMUNESTYRET</string>
+    <string name="card13">Kommunestyret har mottatt Temautvalgets innspill til en ny skolepolitikk. Innen det formelt skal vedtas vil dere gjerne at kommunestyret forholder seg seriøst til forslaget og at de selv spiller inn med nye ideer og utvikler eierskap til den endelige politikken, hvordan gjør dere det?</string>
+    <string name="card13a">Dere ber borgermesteren om å innkalle partilederne til en uformell prat der hun kan sondere deres holdninger til forslaget, med den hensikten at de kan hjelpe med å formulere det endelige beslutningsforslaget. \nPris: 2 Innflytelse</string>
+    <string name="card13b">Dere oppfordrer Barne- og Ungdomsutvalget til å behandle forslaget og på bakgrunn av det komme med en anbefaling til vedtak i kommunestyret. \nPris: 2 Nettverk</string>
+    <string name="card13c">Dere avholder et seminar hvor Temautvalget fremlegger sine tanker og visjoner for kommunestyret. Etter fremvisningen deler dere politikerne inn i grupper på tvers av partiene og oppfordrer de til å komme med konkrete forslag på hvordan visjonene kan implementeres i virkeligheten. \nPris: 2 Kunnskap, 1 Innflytelse, 1 Benarbeid</string>
+
+    <string name="head14">14: KONSEKVENS | IMPLEMENTERING</string>
+    <string name="card14">Deres nye skolepolitikk har blitt vedtatt i kommunestyret og initiativgruppen feirer resultatet med en øl i rådhuskjelleren, her oppstår det en diskusjon om hvorvidt den nye politikken også vil bli gjennomført i forvaltningen og ute på skolen. Hva gjør dere for å sikre implementeringen?</string>
+    <string name="card14a">Dere får borgermesteren til å be skoledirektøren sette opp noen klare mål for gjennomførelsen av den nye skolepolitikken. Forvaltningen og skolen blir evaluert løpende ut fra disse målsetningene \nPris: 1 Innflytelse, 1 Benarbeid</string>
+    <string name="card14b">Dere foreslår at det opprettes en administrativ nettverksgruppe med ledere i forvaltningen og skolen. Denne gruppen skal løpende evalurere prossessen og gjøre eventuelle justeringer. Gruppen rapporterer til Barne- og Ungdomsutvalget. \nPris: 1 Kunnskap, 1 Nettverk</string>
+    <string name="card14c">Dere foreslår at det opprettes en administrativ nettverksgruppe med ledere i forvaltningen og skolen. Denne gruppen skal løpende evalurere prossessen og gjøre eventuelle justeringer. Gruppen rapporterer til Barne- og Ungdomsutvalget. \nPris: 1 Kunnskap, 1 Nettverk</string>
+
+    Konsekvenser for valg:
+    <string name="consequencehead1">1: KONSEKVENS | MANDATET</string>
+    <string name="consequence1a">Deres fokus på problemdefinisjonen blir mottatt positivt i offentligheten. Lokalavisen fremlegger mandatet på den maten at dere ønsker å ta utgangspunkt i konkrete problemer og derfor ønsker å lytte til både borgernes ideer og det faglige personalets utfordringer. Dette øker forventningene til en folkelig forankring.</string>
+    <string name="consequence1b">Dere fokuserer skarpt på implementeringen, noe som skjerper forventningene til å gjennomføre politikken i praksis.</string>
+    <string name="consequence1c">Forventningene til innovasjon i skolepolitikken skjerpes ytterligere da lokalavisen skriver artikkelen "Fremtidens skole i Fjordby" på bakgrunn av deres mandat.  Mandatets målsetning om å sikre innfrielsen av visjonen skjerper dessuten forventningene til prosjektets gjennomførlighet.</string>
+
+    <string name="consequencehead2">2: KONSEKVENS - TEMAUTVALGET</string>
+    <string name="consequence2a">Dere sammensetter et homogent utvalg, som snakker samme språk og har stor beslutningskompetanse. Det finnes en risiko for at løsningen blir teknokratisk og ikke særlig innovativ, da nytenkning ofte er resultatet av møtet mellom forskjellige aktører med forskjellige ideer og perspektiv.</string>
+    <string name="consequence2b">Ved å benytte dere av sentrale interessenter sikrer dere prosjektets gjennomførbarhet og popularitet. Det finnes en risiko for at særinteresser kan blokkere for nye ideér og synsvinkler.</string>
+    <string name="consequence2c">Dere har sikret mye nytenkning i utvalget da alle deltakerne er engasjerte og kreative. Forskjelligheten i gruppen er både en utfordring og en stor styrke. Det finnes en risiko for at visjonene kan bli litt for urealistiske.</string>
+
+    <string name="consequencehead4">4: REFLEKSJONSØVELSE | SVAR</string>
+
+    <string name="consequencehead5">5: KONSEKVENS - MØTESTED</string>
+    <string name="consequence5a">Den formelle rammen virker begrensende for samarbeidet og innovasjonen, og de kommunale aktørene blir lett fanget av vanetenking. Samtidig virker rådhuset uvant og en smule skummelt for noen av de eksterne aktørene</string>
+    <string name="consequence5b">Det er bra for medlemmene i Temautvalget at de kan ta utgangspunkt i den konkrete virkeligheten på en skole. De kommer i nærkontakt med en rekke lærere, elever og foreldre og får et innblikk i konkrete problemer og utfordringer på en skole.</string>
+    <string name="consequence5c">Rotasjonen skaper et bredt engasjement, eierskap og kjennskap til prosjektet, noe som både sikrer kreativitet og bred støtte. De skiftene møtestedene byr også på utfordringer med hensyn til å bevare fokus og kontinuitet i arbeidet og truer med å gjøre sluttproduktet urealistisk.</string>
+
+    <string name="consequencehead6">6: KONSEKVENS | POLITIKERNES ROLLE</string>
+    <string name="consequence6a">Nytekningen i utvalget begrenses kraftig av at dere på forhånd har definert både problemstilling og løsninger. Utvalget hjelper derimot med å luke ut de mest ugjennomtenkte ideene noe som gjør prosjektet både mer gjennomførbart og ukontroversielt.</string>
+    <string name="consequence6b">Utvalget har en forståelse for at dere opererer i en politisk virkelighet og aksepterer hurtig deres rett til å ta forbehold. Den gjensidige dialogen styrker både utviklingen og kvalifikasjonene til en rekke gode ideer, og det er en klar styrke for prosjektet at alle deltar aktivt, spesielt i starten da alle er litt usikre på hva som skal skje</string>
+    <string name="consequence6c">Utvalget lider av deres manglende deltagelse og ledelse og begynner å bevege seg i en litt tilfeldig og ikke spesielt konstruktiv retning.</string>
+
+    <string name="consequencehead7">7: KONSEKVENS | KOMPETANSEKONFLIKT</string>
+    <string name="consequence7b">Dere tviholder på engasjementet og initiativet i Temautvalget, noe som er bra for prosjektets innovasjonskapasitet men dere merker raskt at det i lengden kan skape problemer at dere la dere ut med Barne- og Ungdomsutvalget.</string>
+    <string name="consequence7c">Dialogen med Barne- og Ungdomsutvalget skaper et godt samarbeidsklima og styrker prosjektets sjangsen for å bli gjennomført med suksess, men amarbeidet tærer på kreftene og de store møtene med mange deltagere er ikke alltid produktive.</string>
+
+    <string name="consequencehead8">8: KONSEKVENS | KAMP OM PROBLEMFORSTÅELSEN</string>
+    <string name="consequence8a">Ved å avvise Lærerforeningen skaper dere plass til en åpen diskusjon av problemer og mulige løsninger. Men senere viser det seg at dette skaper konflikter som både begrenser oppslutningen og vanskeliggjør implementasjonen.</string>
+    <string name="consequence8b">Den felles problemsøkingen gir et samlet utgangspunkt for nytekning og øker kjennskapet til lærerenes arbeid, men det er svært krevende og gjør et stort innhugg i ressursene.</string>
+    <string name="consequence8c">De nye kildene med input øker innovasjonskraften i den politiske utviklingen men de forskjellige posisjoner kommer til å stå litt stilt ovenfor hverandre og det har en negativ innflytelse på samrbeidet i Temautvalget.</string>
+
+    <string name="consequencehead10">10: KONSEKVENS | NY INSPIRASJON</string>
+    <string name="consequence10a">Deltagerne på ekskursjonen får mye ny input, men de som ikke var med er skeptiske for hvordan ideene kan brukes i en norsk sammenheng. Lokalavisen kommer med en historia om at dere har vært på luksusreise på skattebetalernes regning.</string>
+    <string name="consequence10b">Fremtidsverkstedet var en god og lærerik dag for Temautvalget, og inspirerer utvalget til nye ideer og visjoner, men er også noe begrenset av at dere konstant tar av deres egen erfaring og ideer.</string>
+    <string name="consequence10c">Det viser seg at konkurransen var en kjempehit og grunnskolen er et tema som interesserer mange foreldre, lærere og elever, og det kommer derfor et overraskende stort antall svar med mange gode ideer. En del av de er riktig nok urealistiske da de enten er veldig kostbare eller strider med lovgivningen.</string>
+
+    <string name="consequencehead11">11: KONSEKVENS | RAPPORTEN</string>
+    <string name="consequence11a">Deltakerne i utvalget er glade da alle har muligheten til å støtte forslaget, men når alle skal være enige så er det ikke så mange nye og innovative ideer igjen.</string>
+    <string name="consequence11b">Skrivegruppen kommer med et sammenhengene og nyskapende forslag til en ny skolepolitik for Fjordby Kommune. Diskusjonen og avstemningen fører dessverre til at det mindretall i Temautvalget føler seg overkjørt.</string>
+    <string name="consequence11c">Idekatalogen er meget allsidig, men ikke spesielt sammenhengende, og fordi alt er med så ender det også med å motsi seg selv på sentrale områder, noe som minsker gjennomslagskraften.</string>
+
+    <string name="consequencehead12">12: REFLEKSJONSØVELSE | SVAR</string>
+
+    <string name="consequencehead13">13: KONSEKVENS | TILBAKE TIL KOMMUNESTYRET</string>
+    <string name="consequence13a">Den uformelle formen gir plass til reelle politiske forhandlinger og resultatet blir et komprormiss som avspeiler de reelle politiske styrkeforholdene og gjør vedtaksprossessen enklere. Dessverre går det utover de mest innovative og kontroversielle ideene i forslaget.</string>
+    <string name="consequence13b">Barne- og Ungdomsutvalget arbeider konstruktivt og konkret videre med deres forslag og kvalifiserer det ytterligere.</string>
+    <string name="consequence13c">Seminaret skaper en stor medeierfølelse fra hele kommunestyret og deres ideer blir ytterligere kvalifisert og utfylt. Det oppstår derimot senere en situasjon der flere av politikerne som deltok finner ut at de ikke kan stå for det de gjorde i kampens hete.</string>
+
+    <string name="consequencehead14">14: UTFORDRING | IMPLEMENTERING</string>
+    <string name="consequence14a">Resultatmålene og de forskjellige milepælene sikrer et sterkt fokus på realiseringen men er dessverre meget ressurskrevende og skaper mistillit.</string>
+    <string name="consequence14b">Gjensidig dialog skaper tillit, eierskap og motivasjon. Den løsere styringen skaper også plass til ytterligere nytenking i implementeringsfasen.</string>
+    <string name="consequence14c">Møtet og dets klare fokus på de nye visjonene og løsningene gir et positivt inntrykk til medarbeiderne. Det sender dessuten et signal om at det er tillit til medarbeidernes ferdigheter og får oppklart en rekke misforståelser rundt implementeringen som har oppstått underveis i møtet.</string>
+
+    Konsekvenser til sluttoppsummering:
+    <string name="decision1text">Hva vektlegger dere i mandatet?</string>
+    <string name="decision1a">Dere valgte å legge vekt på problemdefinisjon</string>
+    <string name="decision1b">Dere valgte å legge vekt på implementering</string>
+    <string name="decision1c">Dere valgte å legge vekt på politiske visjoner</string>
+
+    <string name="decision2text">Sammensetningen av Temautvalget:</string>
+    <string name="decision2a">Dere valgte et politisk-administrativt team</string>
+    <string name="decision2b">Dere valgte en representativ forsamling</string>
+    <string name="decision2c">Dere håndplukket en gruppe</string>
+
+    <string name="decision3text">Dere valgte følgende aktører:</string>
+
+    <string name="decision4text">Hvor skal dere møtes?</string>
+    <string name="decision4a">Dere valgte å holde møtene på rådhuse</string>
+    <string name="decision4b">Dere valgte å holde møtene på Nordregårdskolen</string>
+    <string name="decision4c">Dere valgte å bytte på møtesteder</string>
+
+    <string name="decision5text">Hvilken rolle skal politikerne ha?</string>
+    <string name="decision5a">Dere valgte å sette en klar ramme rundt prosjektet</string>
+    <string name="decision5b">Dere valgte å lytte til ideer, med forbehold om å si nei</string>
+    <string name="decision5c">Dere valgte å ikke ta noen konkrete avgjørelser men heller lytte til utvalget</string>
+
+    <string name="decision6text">Kompetansekonflikt med BU-utvalget:</string>
+    <string name="decision6a">Dere inkluderte BU-formannen i utvalget</string>
+    <string name="decision6b">Dere valgte å takke nei til BU-utvalgets involvering</string>
+    <string name="decision6c">Dere åpnet en løpende dialog med BU-utvalget</string>
+
+    <string name="decision7text">Hva gjør dere med lærerne?</string>
+    <string name="decision7a">Dere valgte å holde kursen</string>
+    <string name="decision7b">Dere tok med Lærerforening på befaring</string>
+    <string name="decision7c">Dere takker Lærerforeningen for deres inpu</string>
+
+    <string name="decision8text">Ny inspirasjonskilde:</string>
+    <string name="decision8a">Dere valgte å dra på ekskursjon</string>
+    <string name="decision8b">Dere valgte å holde et fremtidsverksted</string>
+    <string name="decision8c">Dere holdt en offentlig konkurranse for å få de beste ideene</string>
+
+    <string name="decision9text">Uenighet om rapporten:</string>
+    <string name="decision9a">Dere ønsket en konsensus</string>
+    <string name="decision9b">Dere valgte å holde avstemming</string>
+    <string name="decision9c">Dere valgte å opprette en idekatalog</string>
+
+    <string name="decision10text">Overtale kommunestyret:</string>
+    <string name="decision10a">Dere holdt en partilederunde</string>
+    <string name="decision10b">Dere ba BU-utvalget komme med oppfordring til vetakelse i kommunestyre</string>
+    <string name="decision10c">Dere holder et kommunestyreseminar</string>
+
+    <string name="decision11text">Hvilket fokus på implementering?</string>
+    <string name="decision11a">Dere fokuserer på klare mål og kontroll</string>
+    <string name="decision11b">Dere fokuserer på dialogbasert styring</string>
+    <string name="decision11c">Dere holder et stormøte angående implementeringen</string>
+
+    Aktører:
+    <string name="actorrecievevalue">Du vil motta:</string>
+
+    <string name="actor1head">Lederen for det største opposisjonspartiet</string>
+    <string name="actor1desc">Formannen for teknikk og miljøutvalget og meget aktiv i dagsavisen når det gjelder å kritisere borgermesteren for byens manglende utvikling. </string>
+    <string name="actor1pol">Yes</string>
+    <string name="actor1rep">No</string>
+    <string name="actor1value">1 Innflytelse, 2 Nettverk</string>
+
+    <string name="actor2head">Engasjert forelder</string>
+    <string name="actor2desc">Mor til tre barn i offentlig skole. Har skrevet flere mailer til barne- og ungdomsutvalget og initiativgruppen med ideer og forslag til hva den noe skolepolitikken skal inneholde.</string>
+    <string name="actor2pol">No</string>
+    <string name="actor2rep">No</string>
+    <string name="actor2value">1 Kunnskap, 1 Benarbeid, 2 Engasjement</string>
+
+    <string name="actor3head">Læreren</string>
+    <string name="actor3desc">Ble i 2012 utnevnt til “Årets lærer” i et landsdekkende dagblad. Er kjent i lokalområdet for å bruke nye og annerledes undervisningsmetoder.</string>
+    <string name="actor3pol">No</string>
+    <string name="actor3rep">No</string>
+    <string name="actor3value">2 Benarbeid, 1 Kunnskap, 1 Engasjement</string>
+
+    <string name="actor4head">Fellestillitsmannen</string>
+    <string name="actor4desc">Arbeider på en av de største skolene i byen og har mange års erfaring som lærernes representant i politiske sammenhenger, kontaktperson til Lærerforeningen.</string>
+    <string name="actor4pol">No</string>
+    <string name="actor4rep">Yes</string>
+    <string name="actor4value">1 Benarbeid, 1 Kunnskap, 1 Nettverk</string>
+
+    <string name="actor5head">Utviklingskonsulent</string>
+    <string name="actor5desc">Ung akademiker udtannet fra RUC med spesialfelt innenfor regional utvikling. Har med suksess tidligere vært prosjektleder for et par av kommunens utviklingsprosjekter.</string>
+    <string name="actor5pol">Yes</string>
+    <string name="actor5rep">No</string>
+    <string name="actor5value">1 Benarbeid, 1 Engasjement</string>
+
+    <string name="actor6head">Elevrådsformannen</string>
+    <string name="actor6desc">Begavet niendeklasseelev som har blitt intervjuet av lokalavisen flere ganger da den forrige grunnskolereformen ble vedtatt.</string>
+    <string name="actor6pol">No</string>
+    <string name="actor6rep">Yes</string>
+    <string name="actor6value">1 Engasjement, 2 Benarbeid</string>
+
+    <string name="actor7head">Lederen for Nordregårdsskolen</string>
+    <string name="actor7desc">Er kjent for å raskt sette i gang med nye prosjekter og har nylig mottat en pengebevilgning fra Statens Innovasjonsfond.</string>
+    <string name="actor7pol">No</string>
+    <string name="actor7rep">No</string>
+    <string name="actor7value">1 Engasjement, 1 Kunnskap, 1 Nettverk</string>
+
+    <string name="actor8head">Lokalformann for skole og foreldre</string>
+    <string name="actor8desc">Aktivt forelder til tre barn og tidligere formann for skolestyret på en mindre skole i Fjordby.</string>
+    <string name="actor8pol">No</string>
+    <string name="actor8rep">Yes</string>
+    <string name="actor8value">1 Engasjement, 1 Innflytelse, 1 Nettverk</string>
+
+    <string name="actor9head">Borgermesteren</string>
+    <string name="actor9desc">Har hatt embetet i 10 år og er generelt godt ansett. Noen mener at forvaltningen har litt for stor innflytelse på borgermesterens holdninger. </string>
+    <string name="actor9pol">Yes</string>
+    <string name="actor9rep">No</string>
+    <string name="actor9value">3 Innflytelse</string>
+
+    <string name="actor10head">Rektor for teknisk skole</string>
+    <string name="actor10desc">Stod i sin tid bak opprettelsen av Studenthuset i Fjordby sammen med rektoren fra videregående og er kjent for å ta initiativer i lokalområdet.</string>
+    <string name="actor10pol">No</string>
+    <string name="actor10rep">Yes</string>
+    <string name="actor10value">1 Innflytelse, 2 Nettverk</string>
+
+    <string name="actor11head">Professor i pedagogikk</string>
+    <string name="actor11desc">Underviser og forsker ved DPU. Har blandet seg inn i den offentlige debatten rundt grunnskolereformen da den ble behandlet i Folketinget</string>
+    <string name="actor11pol">No</string>
+    <string name="actor11rep">No</string>
+    <string name="actor11value">3 Kunnskap</string>
+
+    <string name="actor12head">Skoledirektøren</string>
+    <string name="actor12desc">Utdannet økonom og favoritt på stillingen som neste kommuneadministrator. Har utmerket seg ved å gjennomføre et digitalt utviklingsprosjekt for styring av elevplaner. </string>
+    <string name="actor12pol">Yes</string>
+    <string name="actor12rep">No</string>
+    <string name="actor12value">1 Innflytelse, 1 Kunnskap, 1 Nettverk</string>
+
+    <string name="actor13head">Politiker for regionsrådet</string>
+    <string name="actor13desc">Ung politiker som bor i Fjordby og er fra samme parti som borgermesteren. Sitter i fylkets utvalg for regional utvikling og har mange meninger om utdannelsespolitikk. </string>
+    <string name="actor13pol">Yes</string>
+    <string name="actor13rep">Yes</string>
+    <string name="actor13value">1 Engasjement, 1 Innflytelse, 1 Nettverk</string>
+
+    <string name="actor14head">Formann for BU-utvalget</string>
+    <string name="actor14desc">Formannen for Barne- og Ungdomsutvalget og en aktiv deltager i skolereformdebatten. Kjenner flere innflytelsesrirke politikere og har dermed stor gjennomslagskraft for sine prosjekter. </string>
+    <string name="actor14pol">No</string>
+    <string name="actor14rep">No</string>
+    <string name="actor14value">2 Innflytelse</string>
+</resources>

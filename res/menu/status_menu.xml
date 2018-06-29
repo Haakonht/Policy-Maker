@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:title="Spillstatus"
+        android:id="@+id/status"
+        android:icon="@drawable/add_resource"
+        android:orderInCategory="100"
+        />
+
+    <item
+        android:title="Avslutt spill"
+        android:id="@+id/menuExit"
+        android:icon="@drawable/add_resource"
+        android:visibility="gone"
+        android:orderInCategory="100"
+        />
+</menu>

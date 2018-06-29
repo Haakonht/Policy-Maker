@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#eeeeee">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/gunmetal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/actor_headline"
+            android:textAlignment="inherit"
+            android:textColor="@color/white"
+            android:singleLine="false"
+            android:layout_gravity="left|center"
+            android:background="#00ffffff"
+            android:gravity="fill_vertical"
+            android:layout_weight="0.96"
+            android:layout_marginLeft="10dp" />
+
+        <ToggleButton
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/actor_selectedBtn"
+            android:onClick="actorTgl_click"
+            android:textOn="Valgt"
+            android:textOff="Velg"
+            android:breakStrategy="high_quality"
+            android:background="#00ffffff"
+            android:textSize="18dp"
+            android:textColor="#ff0000"
+            android:paddingTop="2dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/actor_image"
+        android:src="@drawable/actor1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:background="@drawable/actor1" />
+
+    <TextView
+        android:id="@+id/actor_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/texturearea"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:text="Formannen for teknikk og miljøutvalget og meget aktiv i dagsavisen når det gjelder å kritisere borgermesteren for byens manglende utvikling. "/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/actorrecievevalue"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/actor_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Midten!"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+</LinearLayout>

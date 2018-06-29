@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/password"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginTop="300dp"
+        android:text="@string/loginBtn_text" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/login"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:focusable="true"
+        android:hint="@string/login_username_hint"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="@string/login_password_hint"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/testBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/login_test_checkbox" />
+
+</RelativeLayout>
